@@ -122,7 +122,7 @@ Pod::Spec.new do |spec|
 
   # spec.library   = "iconv"
   # spec.libraries = "iconv", "xml2"
-    spec.vendored_frameworks = "HTEffectPod/HTEffect/*.{framework}"
+    spec.vendored_frameworks = "HTEffectPod/HTEffect/**/*.{framework}"
     
     spec.pod_target_xcconfig = { 'VALID_ARCHS' => 'x86_64 armv7 arm64' }  #支持的架构。
   # ――― Project Settings ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #

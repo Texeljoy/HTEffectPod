@@ -15,9 +15,9 @@ Pod::Spec.new do |spec|
   #  summary should be tweet-length, and the description more in depth.
   #
 
-  spec.name         = "HTEffect"
-  spec.version      = "2.0"
-  spec.summary      = "A short description of HTEffect"
+  spec.name         = "HTEffect-UI"
+  spec.version      = "2.0.0"
+  spec.summary      = "A short description of HTEffect-UI"
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
@@ -25,7 +25,7 @@ Pod::Spec.new do |spec|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   spec.description  = <<-DESC
-                           HTEffectSDK,精简版(不包含UI)
+                           HTEffectSDK full 完整版
                    DESC
 
   spec.homepage     = "https://github.com/Texeljoy/HTEffectPod.git"
@@ -65,7 +65,7 @@ Pod::Spec.new do |spec|
   #
 
    spec.platform     = :ios
-   spec.platform     = :ios, "8.0"
+   spec.platform     = :ios, "11.0"
 
   #  When using multiple platforms
   # spec.ios.deployment_target = "5.0"
@@ -91,8 +91,8 @@ Pod::Spec.new do |spec|
   #  Not including the public_header_files will make all headers public.
   #
 
-   #spec.source_files  = "Classes", "Classes/**/*.{h,m}"
-    #spec.exclude_files = "Classes/Exclude"
+   spec.source_files  = "HTEffect", "HTEffect/HTUI/**/*.{h,m}"
+  #spec.exclude_files = "Classes/Exclude"
 
   # spec.public_header_files = "Classes/**/*.h"
 
@@ -105,6 +105,7 @@ Pod::Spec.new do |spec|
   #  non-essential files like tests, examples and documentation.
   #
 
+    spec.resource = ['HTEffect/HTUI/**/*.{bundle,json,png}']
   # spec.resource  = "icon.png"
   # spec.resources = "Resources/*.png"
 
@@ -122,6 +123,8 @@ Pod::Spec.new do |spec|
 
   # spec.library   = "iconv"
   # spec.libraries = "iconv", "xml2"
+  
+           #,"HTEffect/HTUI/HTOther/HTEffectCustomizeUI.framework"
     spec.vendored_frameworks = "HTEffect/HTEffect.framework"
     spec.pod_target_xcconfig = { 'VALID_ARCHS' => 'x86_64 armv7 arm64' }  #支持的架构。
   # ――― Project Settings ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -133,6 +136,8 @@ Pod::Spec.new do |spec|
   # spec.requires_arc = true
 
   # spec.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
-  # spec.dependency "JSONKit", "~> 1.4"
-
+  
+    spec.dependency 'Masonry'
+    spec.dependency 'SSZipArchive'
+  
 end

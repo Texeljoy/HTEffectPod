@@ -5,6 +5,12 @@ target 'HTEffectExample' do
   # Comment the next line if you don't want to use dynamic frameworks
   use_frameworks!
   pod 'HTEffect', :path => '../'
+  pod 'Masonry'
+  pod 'SSZipArchive'
+  
+  
+  
+  
   # Pods for HTEffectExample
 
 end

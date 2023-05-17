@@ -13,8 +13,8 @@
 #import "HTDownloadZipManager.h"
 #import "QZImagePickerController.h"
 #import "HTUIManager.h"
-//#import "HTStickerView.h"
-#import <HTEffectCustomizeUI/HTStickerView.h>
+#import "HTStickerView.h"
+//#import <HTEffectCustomizeUI/HTStickerView.h>
 
 @interface HTARItemEffectView ()<UICollectionViewDataSource,UICollectionViewDelegate,QZImagePickerControllerDelegate,UIGestureRecognizerDelegate>
 

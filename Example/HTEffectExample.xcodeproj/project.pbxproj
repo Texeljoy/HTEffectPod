@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -14,7 +14,6 @@
 		1E201A0F292DF0280072EE85 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E201577292DF0270072EE85 /* AppDelegate.m */; };
 		1E201E3E292DF0280072EE85 /* CameraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E201A04292DF0280072EE85 /* CameraViewController.m */; };
 		1E201E3F292DF0280072EE85 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E201A05292DF0280072EE85 /* HomeViewController.m */; };
-		1E2348E129FB61860051EEF8 /* HTEffectCustomizeUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E2348DC29FB60AE0051EEF8 /* HTEffectCustomizeUI.framework */; };
 		1E3DB254292E2DEA0078295E /* HTCaptureSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E3DB253292E2DEA0078295E /* HTCaptureSessionManager.m */; };
 		1EF1876B2A148BCA00F92AF5 /* HTGestureViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EF183B72A148BCA00F92AF5 /* HTGestureViewCell.m */; };
 		1EF1876C2A148BCA00F92AF5 /* HTGestureEffectView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EF183B92A148BCA00F92AF5 /* HTGestureEffectView.m */; };
@@ -89,12 +88,8 @@
 		1EF187B12A148BCB00F92AF5 /* ht_makeup.png in Resources */ = {isa = PBXBuildFile; fileRef = 1EF184352A148BCA00F92AF5 /* ht_makeup.png */; };
 		1EF187B22A148BCB00F92AF5 /* ht_beauty.png in Resources */ = {isa = PBXBuildFile; fileRef = 1EF184362A148BCA00F92AF5 /* ht_beauty.png */; };
 		1EF187B32A148BCB00F92AF5 /* HTWatermarkView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EF184392A148BCA00F92AF5 /* HTWatermarkView.m */; };
-		1EF187B42A148BCB00F92AF5 /* Masonry.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1EF1843B2A148BCA00F92AF5 /* Masonry.framework */; };
-		1EF187B52A148BCB00F92AF5 /* SSZipArchive.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1EF1843C2A148BCA00F92AF5 /* SSZipArchive.framework */; };
 		1EF187B62A148BCB00F92AF5 /* HTCaptureView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EF1843D2A148BCA00F92AF5 /* HTCaptureView.m */; };
 		1EF187B72A148BCB00F92AF5 /* HTVideoProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EF1843E2A148BCA00F92AF5 /* HTVideoProgressView.m */; };
-		1EF187B82A148BCB00F92AF5 /* HTEffectCustomizeUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1EF184402A148BCA00F92AF5 /* HTEffectCustomizeUI.framework */; };
-		1EF187B92A148BCB00F92AF5 /* AFNetworking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1EF184422A148BCA00F92AF5 /* AFNetworking.framework */; };
 		1EF187BA2A148BCB00F92AF5 /* HTMattingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EF184462A148BCA00F92AF5 /* HTMattingView.m */; };
 		1EF187BB2A148BCB00F92AF5 /* HTMattingSwitchScreenView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EF184492A148BCA00F92AF5 /* HTMattingSwitchScreenView.m */; };
 		1EF187BC2A148BCB00F92AF5 /* HTMattingEffectView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EF1844A2A148BCA00F92AF5 /* HTMattingEffectView.m */; };
@@ -867,6 +862,7 @@
 		1EF18ABB2A148BCB00F92AF5 /* HTFilterHahaViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EF187662A148BCA00F92AF5 /* HTFilterHahaViewCell.m */; };
 		1EF18ABC2A148BCB00F92AF5 /* QZImagePickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EF187682A148BCA00F92AF5 /* QZImagePickerController.m */; };
 		1EF18ABD2A148BCB00F92AF5 /* HTEffect.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 1EF1876A2A148BCA00F92AF5 /* HTEffect.bundle */; };
+		1EF18ACC2A14BF5100F92AF5 /* HTStickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EF18ACA2A14BF5100F92AF5 /* HTStickerView.m */; };
 		4FAD199EA0A11FC46E34EB45 /* Pods_HTEffectExample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F88C1B120AACB0FE7C82DFDB /* Pods_HTEffectExample.framework */; };
 		75FCB27F23274CB100BCCA66 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 75FCB27E23274CB100BCCA66 /* libc++.tbd */; };
 		75FCB28123274CBD00BCCA66 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75FCB28023274CBD00BCCA66 /* AssetsLibrary.framework */; };
@@ -1014,14 +1010,10 @@
 		1EF184362A148BCA00F92AF5 /* ht_beauty.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ht_beauty.png; sourceTree = "<group>"; };
 		1EF184382A148BCA00F92AF5 /* HTWatermarkView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTWatermarkView.h; sourceTree = "<group>"; };
 		1EF184392A148BCA00F92AF5 /* HTWatermarkView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTWatermarkView.m; sourceTree = "<group>"; };
-		1EF1843B2A148BCA00F92AF5 /* Masonry.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Masonry.framework; sourceTree = "<group>"; };
-		1EF1843C2A148BCA00F92AF5 /* SSZipArchive.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SSZipArchive.framework; sourceTree = "<group>"; };
 		1EF1843D2A148BCA00F92AF5 /* HTCaptureView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTCaptureView.m; sourceTree = "<group>"; };
 		1EF1843E2A148BCA00F92AF5 /* HTVideoProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTVideoProgressView.m; sourceTree = "<group>"; };
 		1EF1843F2A148BCA00F92AF5 /* HTCaptureView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTCaptureView.h; sourceTree = "<group>"; };
-		1EF184402A148BCA00F92AF5 /* HTEffectCustomizeUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = HTEffectCustomizeUI.framework; sourceTree = "<group>"; };
 		1EF184412A148BCA00F92AF5 /* HTVideoProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTVideoProgressView.h; sourceTree = "<group>"; };
-		1EF184422A148BCA00F92AF5 /* AFNetworking.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AFNetworking.framework; sourceTree = "<group>"; };
 		1EF184452A148BCA00F92AF5 /* HTMattingMenuView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTMattingMenuView.h; sourceTree = "<group>"; };
 		1EF184462A148BCA00F92AF5 /* HTMattingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTMattingView.m; sourceTree = "<group>"; };
 		1EF184472A148BCA00F92AF5 /* HTMattingEffectViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTMattingEffectViewCell.h; sourceTree = "<group>"; };
@@ -1811,6 +1803,8 @@
 		1EF187682A148BCA00F92AF5 /* QZImagePickerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QZImagePickerController.m; sourceTree = "<group>"; };
 		1EF187692A148BCA00F92AF5 /* QZImagePickerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QZImagePickerController.h; sourceTree = "<group>"; };
 		1EF1876A2A148BCA00F92AF5 /* HTEffect.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = HTEffect.bundle; path = ../../HTEffect/HTEffect.bundle; sourceTree = "<group>"; };
+		1EF18ACA2A14BF5100F92AF5 /* HTStickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTStickerView.m; sourceTree = "<group>"; };
+		1EF18ACB2A14BF5100F92AF5 /* HTStickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTStickerView.h; sourceTree = "<group>"; };
 		7493667F17D2A5AF38D797F6 /* Pods-HTEffectExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HTEffectExample.debug.xcconfig"; path = "Target Support Files/Pods-HTEffectExample/Pods-HTEffectExample.debug.xcconfig"; sourceTree = "<group>"; };
 		75574078230F7DFC00F7591C /* HTEffect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HTEffect.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		75FCB27E23274CB100BCCA66 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
@@ -1826,12 +1820,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1EF187B82A148BCB00F92AF5 /* HTEffectCustomizeUI.framework in Frameworks */,
-				1EF187B92A148BCB00F92AF5 /* AFNetworking.framework in Frameworks */,
-				1E2348E129FB61860051EEF8 /* HTEffectCustomizeUI.framework in Frameworks */,
-				1EF187B52A148BCB00F92AF5 /* SSZipArchive.framework in Frameworks */,
 				75FCB28123274CBD00BCCA66 /* AssetsLibrary.framework in Frameworks */,
-				1EF187B42A148BCB00F92AF5 /* Masonry.framework in Frameworks */,
 				75FCB27F23274CB100BCCA66 /* libc++.tbd in Frameworks */,
 				4FAD199EA0A11FC46E34EB45 /* Pods_HTEffectExample.framework in Frameworks */,
 			);
@@ -2170,14 +2159,12 @@
 		1EF1843A2A148BCA00F92AF5 /* HTOther */ = {
 			isa = PBXGroup;
 			children = (
-				1EF1843B2A148BCA00F92AF5 /* Masonry.framework */,
-				1EF1843C2A148BCA00F92AF5 /* SSZipArchive.framework */,
+				1EF18ACB2A14BF5100F92AF5 /* HTStickerView.h */,
+				1EF18ACA2A14BF5100F92AF5 /* HTStickerView.m */,
 				1EF1843D2A148BCA00F92AF5 /* HTCaptureView.m */,
 				1EF1843E2A148BCA00F92AF5 /* HTVideoProgressView.m */,
 				1EF1843F2A148BCA00F92AF5 /* HTCaptureView.h */,
-				1EF184402A148BCA00F92AF5 /* HTEffectCustomizeUI.framework */,
 				1EF184412A148BCA00F92AF5 /* HTVideoProgressView.h */,
-				1EF184422A148BCA00F92AF5 /* AFNetworking.framework */,
 			);
 			path = HTOther;
 			sourceTree = "<group>";
@@ -3168,6 +3155,7 @@
 				75574075230F7DFC00F7591C /* Frameworks */,
 				75574076230F7DFC00F7591C /* Resources */,
 				1E2348E729FB61860051EEF8 /* Embed Frameworks */,
+				60BEF38D14FDC21ABC1F8C10 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -4036,6 +4024,23 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		60BEF38D14FDC21ABC1F8C10 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HTEffectExample/Pods-HTEffectExample-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HTEffectExample/Pods-HTEffectExample-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HTEffectExample/Pods-HTEffectExample-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -4080,6 +4085,7 @@
 				1EF187A72A148BCA00F92AF5 /* LongPhotoBrowser.m in Sources */,
 				1EF187BD2A148BCB00F92AF5 /* HTMattingMenuView.m in Sources */,
 				1EF187912A148BCA00F92AF5 /* HTBeautyView.m in Sources */,
+				1EF18ACC2A14BF5100F92AF5 /* HTStickerView.m in Sources */,
 				1EF187BC2A148BCB00F92AF5 /* HTMattingEffectView.m in Sources */,
 				1EF187C52A148BCB00F92AF5 /* HTARItemEffectViewCell.m in Sources */,
 				1EF187BF2A148BCB00F92AF5 /* HTMattingEffectViewCell.m in Sources */,

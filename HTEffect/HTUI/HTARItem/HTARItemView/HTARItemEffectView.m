@@ -566,13 +566,13 @@ static NSString *const HTARItemEffectViewCellId = @"HTARItemEffectViewCellId";
     NSString *itmeFolder = [[[HTEffect shareInstance] getARItemPathBy:HTItemWatermark] stringByAppendingString:name];
     UIImage *im = [UIImage imageWithContentsOfFile:[NSString stringWithFormat:@"%@/%@.png",itmeFolder,name]];
     
-    CGSize mainSize = [[UIScreen mainScreen] bounds].size;
+    CGSize mainSize = [HTUIManager shareManager].superWindow.frame.size;
     CGSize resolutionSize = [HTUIManager shareManager].resolutionSize;
     CGRect bounds = CGRectMake(0, 0, im.size.width, im.size.height);
     CGRect imr = [HTStickerView superView:resolutionSize convertBounds:bounds toSize:mainSize];
     
     UIImageView *imageView = [[UIImageView alloc] init];
-    imageView.frame = CGRectMake([HTUIManager shareManager].superWindow.frame.size.width/2 - imr.size.width/2, [HTUIManager shareManager].superWindow.frame.size.height/2 - imr.size.height/2, imr.size.width, imr.size.height);
+    imageView.frame = CGRectMake(mainSize.width/2 - imr.size.width/2, mainSize.height/2 - imr.size.height/2, imr.size.width, imr.size.height);
     
     //    imageView.image = im;
     imageView.contentMode = UIViewContentModeScaleToFill;
@@ -600,7 +600,7 @@ static NSString *const HTARItemEffectViewCellId = @"HTARItemEffectViewCellId";
     [stickerView setUpdateCornerPositionBlock:^(CGPoint topLeft, CGPoint topRight, CGPoint bottomLeft, CGPoint bottomRight) {
         
         
-        CGSize mainSize = [[UIScreen mainScreen] bounds].size;
+        CGSize mainSize = [HTUIManager shareManager].superWindow.frame.size;
         CGSize resolutionSize = [HTUIManager shareManager].resolutionSize;
         
         CGRect rect = CGRectZero;

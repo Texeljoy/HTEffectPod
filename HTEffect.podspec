@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "HTEffect"
-  spec.version      = "2.0.0"
+  spec.version      = "2.1.0"
   spec.summary      = "虹图美颜HTEffect"
 
   # This description is used to generate tags and improve search results.
@@ -80,7 +80,7 @@ Pod::Spec.new do |spec|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  spec.source       = { :git => "https://github.com/Texeljoy/HTEffectPod.git", :tag => "v2.0.0" }
+  spec.source       = { :git => "https://github.com/Texeljoy/HTEffectPod.git", :tag => "v2.1.0" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #

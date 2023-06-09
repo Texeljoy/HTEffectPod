@@ -5,6 +5,7 @@ target 'HTEffectExample' do
   # Comment the next line if you don't want to use dynamic frameworks
   use_frameworks!
   pod 'HTEffect', :path => '../'
+#  pod 'HTEffect'
   pod 'Masonry'
   pod 'SSZipArchive'
   

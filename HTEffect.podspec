@@ -80,7 +80,7 @@ Pod::Spec.new do |spec|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  spec.source       = { :git => "https://github.com/Texeljoy/HTEffectPod.git", :tag => "v2.1.0" }
+  spec.source       = { :git => "https://github.com/Texeljoy/HTEffectPod.git", :tag => spec.version.to_s }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #

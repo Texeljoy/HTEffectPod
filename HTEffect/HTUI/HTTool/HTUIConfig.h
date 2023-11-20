@@ -22,13 +22,13 @@ static NSString * _Nullable const HT_ALL_EFFECT_CACHES = @"HT_ALL_EFFECT_CACHES"
 /* AI抠图模块用来记录绿幕背景色选中位置信息缓存 */
 static NSString * _Nullable const HTMattingScreenGreen  = @"#00ff00";
 static NSString * _Nullable const HTMattingScreenBlue   = @"#0000ff";
-static NSString * _Nullable const HTMattingScreenWhite  = @"#ffffff";
+static NSString * _Nullable const HTMattingScreenRed    = @"#ff0000";
 
 // 这个是 Map NSString * 类型的数组
 static  NSString * _Nonnull const HTScreenCurtainColorMap[3] = {
     [0] = HTMattingScreenGreen,
     [1] = HTMattingScreenBlue,
-    [2] = HTMattingScreenWhite
+    [2] = HTMattingScreenRed
 };
 
 /* 美颜模块用来记录选中位置信息缓存 */

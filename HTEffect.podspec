@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "HTEffect"
-  spec.version      = "3.0.0-beta"
+  spec.version      = "3.0.0"
   spec.summary      = "虹图人像人体特效HTEffect"
 
   # This description is used to generate tags and improve search results.
@@ -55,7 +55,6 @@ Pod::Spec.new do |spec|
 
   spec.author             = { "Texeljoy" => "tech@texeljoy.com" }
   # Or just: spec.author    = "Eddie"
-  # spec.authors            = { "Eddie" => "1035397630@qq.com" }
   # spec.social_media_url   = "https://twitter.com/Eddie"
 
   # ――― Platform Specifics ――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
